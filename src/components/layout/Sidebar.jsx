@@ -11,6 +11,7 @@ import {
   Star,
   LogOut,
   Shield,
+  Brain,
 } from 'lucide-react'
 import { useAuth } from '../../context/AuthContext'
 import { getInitials } from '../../utils/formatters'
@@ -48,6 +49,7 @@ const roleConfig = {
     nav: [
       { to: '/mi-perfil', icon: GraduationCap, label: 'Mi Perfil' },
       { to: '/mis-materias', icon: Star, label: 'Mis Materias' },
+      { to: '/mi-plan-estudio', icon: Brain, label: 'Plan de Estudio' },
     ],
   },
 }

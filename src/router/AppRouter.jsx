@@ -15,6 +15,7 @@ import EstudianteDetalle from '../pages/shared/EstudianteDetalle'
 import Alertas from '../pages/shared/Alertas'
 import MiPerfil from '../pages/estudiante/MiPerfil'
 import MisMaterias from '../pages/estudiante/MisMaterias'
+import MiPlanEstudio from '../pages/estudiante/MiPlanEstudio'
 
 export default function AppRouter() {
   return (
@@ -58,6 +59,7 @@ export default function AppRouter() {
             <Route element={<PrivateRoute roles={['estudiante']} />}>
               <Route path="/mi-perfil" element={<MiPerfil />} />
               <Route path="/mis-materias" element={<MisMaterias />} />
+              <Route path="/mi-plan-estudio" element={<MiPlanEstudio />} />
             </Route>
 
           </Route>

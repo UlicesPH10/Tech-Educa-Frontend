@@ -11,7 +11,7 @@ export default {
       },
       colors: {
         corp: {
-          navy: '#0F3C73',
+          navy: '#132f5a',
           orange: '#F58723',
           teal: '#1E69A0',
           emerald: '#1E875F',
